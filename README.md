@@ -1,4 +1,4 @@
-# Prisma + PostgreSQL
+# TypeScript + Node.js + Esbuild
 
 ## Instructions
 
@@ -7,8 +7,13 @@
 $ yarn install
 ```
 
+---
+
 ## Development
 
 ```bash
-$ docker compose down -v && docker compose build --parallel && docker compose up
+# Runs the project in development mode using nodemon
+$ yarn dev
 ```
+
+---

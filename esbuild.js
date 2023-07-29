@@ -20,10 +20,3 @@ build({
   platform: 'node', // for CJS
   outfile: "dist/index.js",
 });
-
-// build({
-//   ...sharedConfig,
-//   outfile: "dist/index.esm.js",
-//   platform: 'neutral', // for ESM
-//   format: "esm",
-// });
